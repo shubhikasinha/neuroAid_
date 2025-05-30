@@ -13,6 +13,8 @@ Mental health support is often inaccessible due to:
 
 Many people need someone to talk to but face barriers in accessing traditional therapy. This creates a gap between those who need mental health support and those who can access it.
 
+Despite growing awareness, many individuals still suffer in silence. Students, in particular, face academic stress, social isolation, and the pressure to appear "okay" online, all while lacking someone to simply talk to.
+
 ## Approach & Solution
 
 NeuroAid+ is an AI-powered voice therapy assistant that provides:
@@ -60,10 +62,11 @@ NeuroAid+ is an AI-powered voice therapy assistant that provides:
 - Autoprefixer
 - TypeScript
 
-## Screenshots
+## Some Screenshots
 
 ### Landing Page
 ![Landing Page](public/landing.png)
+![Landing Page2](public/landing2.png)
 
 ### Therapy Session
 ![Therapy Session](public/session.png)
@@ -78,45 +81,74 @@ NeuroAid+ is an AI-powered voice therapy assistant that provides:
 - npm or yarn
 - Vapi AI API key
 
-### Installation
+Sure! Here's the full Markdown content, properly formatted and contained within a single `.md` file:
 
-1. Clone the repository:
+````markdown
+# NeuroAid Installation & Setup Guide
+
+## Step 1. Clone the Repository
+
 ```bash
-git clone https://github.com/yourusername/neuroaid-plus.git
-cd neuroaid-plus
-```
+git clone https://github.com/shubhikasinha/neuroAid_.git
+cd agent_ai
+````
 
-2. Install dependencies:
+## Step 2. Install Dependencies
+
+Use either `npm` or `yarn` to install dependencies:
+
 ```bash
 npm install
 # or
 yarn install
 ```
 
-3. Create a `.env` file in the root directory:
-```env
-VITE_VAPI_PUBLIC_KEY=your_vapi_public_key
-VITE_VAPI_ASSISTANT_ID=your_assistant_id
-```
+## Step 3. Create a `.env` File with Your Vapi API Credentials
 
-4. Start the development server:
+This project uses the **Vapi AI SDK** to power real-time voice conversations with your AI assistant.
+To make this work, you need to provide **your own Vapi credentials** in a `.env` file.
+
+### Why Do I Need to Create This File?
+
+Vapi provides each developer with a **unique API key and Assistant ID**, which identify:
+
+* **Who** is making the request (you)
+* **Which assistant** should respond (your assistant configuration)
+
+We **do not include these keys in the public repository** for security reasons and to avoid misuse of any personal Vapi quota.
+
+### 🔧 How to Set It Up
+
+1. **Go to your Vapi AI dashboard:**
+   [https://app.vapi.ai/](https://app.vapi.ai/)
+   Create an account (if you haven’t already), and set up your assistant.
+
+2. **Copy your credentials:**
+
+   * Go to **Settings → API Keys** to get your `VAPI_PUBLIC_KEY`.
+   * Go to **Assistants → \[Your Assistant]** and copy the `ASSISTANT_ID`.
+
+3. **Create a file named `.env` in the root directory of the project.**
+   Paste your credentials like this:
+
+   ```env
+   VITE_VAPI_PUBLIC_KEY=your_vapi_public_key_here
+   VITE_VAPI_ASSISTANT_ID=your_assistant_id_here
+   ```
+
+## Step 4. Start the Development Server
+
 ```bash
 npm run dev
 # or
 yarn dev
 ```
 
-5. Open your browser and navigate to `http://localhost:5173`
+## Step 5. Open in Browser
 
-### Building for Production
+Navigate to:
+[http://localhost:5173](http://localhost:5173)
 
-```bash
-npm run build
-# or
-yarn build
-```
-
-The built files will be in the `dist` directory.
 
 ## Contributing
 

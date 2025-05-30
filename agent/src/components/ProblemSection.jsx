@@ -23,10 +23,10 @@ const ProblemSection = () => {
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 border border-navy-100 shadow-sm">
               <h3 className="text-2xl font-semibold text-navy-900 mb-4">The mental health system is broken</h3>
               <ul className="space-y-3 text-gray-700">
-                <li>💸 Expensive therapists</li>
-                <li>⏰ Months-long waitlists</li>
-                <li>😐 Awkward silences</li>
-                <li>🎭 Surface-level advice</li>
+                <li>- Expensive therapists</li>
+                <li>- Months-long waitlists</li>
+                <li>- Awkward silences</li>
+                <li>- Surface-level advice</li>
               </ul>
             </div>
             
