@@ -1,6 +1,6 @@
 # NeuroAid+ - AI Voice Therapy Assistant
 
-![NeuroAid+ Banner](public/banner.png)
+<img src="public/banner.png" alt="NeuroAid+ Banner" width="600"/>
 
 ## Problem Statement
 
@@ -65,14 +65,14 @@ NeuroAid+ is an AI-powered voice therapy assistant that provides:
 ## Some Screenshots
 
 ### Landing Page
-![Landing Page](public/landing.png)
-![Landing Page2](public/landing2.png)
+<img src="public/landing.png" alt="Landing Page" width="400"/>
+<img src="public/landing2.png" alt="Landing Page 2" width="400"/>
 
 ### Therapy Session
-![Therapy Session](public/session.png)
+<img src="public/session.png" alt="Therapy Session" width="400"/>
 
 ### Session Summary
-![Session Summary](public/summary.png)
+<img src="public/summary.png" alt="Session Summary" width="400"/>
 
 ## Run Instructions
 
@@ -163,3 +163,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Vapi AI for the voice AI technology
 - The open-source community for the amazing tools and libraries
 - All contributors who have helped shape this project
+
