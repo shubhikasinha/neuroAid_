@@ -81,9 +81,6 @@ NeuroAid+ is an AI-powered voice therapy assistant that provides:
 - npm or yarn
 - Vapi AI API key
 
-Sure! Here's the full Markdown content, properly formatted and contained within a single `.md` file:
-
-````markdown
 # NeuroAid Installation & Setup Guide
 
 ## Step 1. Clone the Repository
