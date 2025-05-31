@@ -1,6 +1,6 @@
 # NeuroAid+ - AI Voice Therapy Assistant
 
-<img src="public/banner.png" alt="NeuroAid+ Banner" width="600"/>
+<img src="agent/public/banner.png" alt="NeuroAid+ Banner" width="600"/>
 
 ## Problem Statement
 
@@ -65,14 +65,14 @@ NeuroAid+ is an AI-powered voice therapy assistant that provides:
 ## Some Screenshots
 
 ### Landing Page
-<img src="public/landing.png" alt="Landing Page" width="400"/>
-<img src="public/landing2.png" alt="Landing Page 2" width="400"/>
+<img src="agent/public/landing.png" alt="Landing Page" width="400"/>
+<img src="agent/public/landing2.png" alt="Landing Page 2" width="400"/>
 
 ### Therapy Session
-<img src="public/session.png" alt="Therapy Session" width="400"/>
+<img src="agent/public/session.png" alt="Therapy Session" width="400"/>
 
 ### Session Summary
-<img src="public/summary.png" alt="Session Summary" width="400"/>
+<img src="agent/public/summary.png" alt="Session Summary" width="400"/>
 
 ## Run Instructions
 
